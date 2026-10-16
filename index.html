@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title >CB TIREMAGS </title>
+</head>
+<body>
+     <header id="top">
+        <center>
+    <h1>CB TIRE MAGS</h1>
+         <img src="logo.png" alt="logo" width="300" height="200" >
+    
+    <form action="#" method="get">
+      <input type="search" name="q" placeholder="Search mags or tires...">
+      <button type="submit">Search</button>
+    </form>
+   
+
+    <nav>
+      <a href="#home">Home</a> |
+      <a href="#mags">Mags</a> |
+      <a href="#tires">Tires</a> |
+      <a href="#cart">Cart</a> |
+      <a href="#checkout">Checkout</a> |
+      <a href="#contact">Contact</a>
+    </nav>
+     </center>
+    <hr>
+  </header>
+
+  <main>
+
+  
+    <section id="home">
+      <h2 style="text-align: center;">Quality Mags & Tires for your car</h2>
+      <p style="text-align: center;">Upgrade your cars performance using our products</p>
+      <a href="#mags"><button type="button">Shop Now</button></a>
+      <hr>
+    </section>
+
+
+    <section id="mags">
+      <h2>Mags</h2>
+      <table border="1" cellpadding="10" cellspacing="0">
+        <tr>
+          <td>
+            <h3>Alloy Mag 15"</h3>
+            <p>Lightweight alloy mag, 15-inch, silver finish.</p>
+            <p><strong>₱4,500</strong></p>
+            <button type="button">Add to Cart</button>
+          </td>
+          <td>
+            <h3>Sport Mag 17"</h3>
+            <p>Sporty multi-spoke design, 17-inch, gray.</p>
+            <p><strong>₱7,200</strong></p>
+            <button type="button">Add to Cart</button>
+          </td>
+          <td>
+            <h3> Chrome Mag 16"</h3>
+            <p>matte finish, 16-inch, classic look.</p>
+            <p><strong>₱5,800</strong></p>
+            <button type="button">Add to Cart</button>
+          </td>
+        </tr>
+      </table>
+
+      <h3>Featured Photos</h3>
+
+      <figure>
+        <img src="15mags.jpeg" alt="17inch mags" width="300" height="200">
+        <figcaption><strong>Alloy Mag 15"</strong> Lightweight and stylish</figcaption>
+      </figure>
+
+      <figure>
+        <img src="17mags.jpg" alt="17inch mags" width="300" height="200">
+        <figcaption><strong>Sport Mag 17"</strong>  Bold multi-spoke design</figcaption>
+      </figure>
+
+      <figure>
+        <img src="16mags.jpg" alt="16inch mags" width="300" height="200">
+        <figcaption><strong>Chrome Mag 16"</strong>  Classic matte finish</figcaption>
+      </figure>
+      <hr>
+    </section>
+
+  
+    <section id="TireS">
+      <h2>Tires</h2>
+      <table border="1" cellpadding="10" cellspacing="0">
+        <tr>
+          <td>
+            <h3> All-Season Tire</h3>
+            <img src="bridgestone.jpg" alt="tire" width="250" height="200">
+            <p>Reliable all-season performance.</p>
+            <p><strong>₱3,200</strong></p>
+            <button type="button">Add to Cart</button>
+          </td>
+          <td>
+            <h3> Performance Tire</h3>
+            <img src="performance.jpg" alt="tire" width="250" height="200">
+            <p>High-grip performance tire.</p>
+            <p><strong>₱5,500</strong></p>
+            <button type="button">Add to Cart</button>
+          </td>
+          <td>
+            <h3> SUV Tire</h3>
+            <img src="performance.jpg" alt="tire" width="250" height="200">
+            <p>Durable tire for SUVs and pick up trucks.</p>
+            <p><strong>₱6,800</strong></p>
+            <button type="button">Add to Cart</button>
+          </td>
+        </tr>
+      </table>
+      <hr>
+    </section>
+
+
+    <section id="cart">
+      <h2>Your Cart</h2>
+      <table border="1" cellpadding="8" cellspacing="0">
+        <thead>
+          <tr>
+            <th>Product</th>
+            <th>Price</th>
+            <th>Qty</th>
+            <th>Subtotal</th>
+            <th>Remove</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Alloy Mag 15"</td>
+            <td>₱4,500</td>
+            <td><input type="number" min="1" max="20" value="4"></td>
+            <td>₱18,000</td>
+            <td><button type="button">Remove</button></td>
+          </tr>
+          <tr>
+            <td>All-Season Tire</td>
+            <td>₱3,200</td>
+            <td><input type="number" min="1" max="20" value="4"></td>
+            <td>₱12,800</td>
+            <td><button type="button">Remove</button></td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="3"><strong>Total</strong></td>
+            <td colspan="2"><strong>₱30,800</strong></td>
+          </tr>
+        </tfoot>
+      </table>
+      <br>
+      <a href="#checkout"><button type="button">Proceed to Checkout</button></a>
+      <hr>
+    </section>
+
+    
+    <section id="checkout">
+      <h2>Checkout</h2>
+      <form action="#" method="post">
+
+        <fieldset>
+          <legend>Shipping Details</legend>
+
+          <p>
+            <label for="fullname">Full name:</label><br>
+            <input type="text" id="fullname" name="fullname" required>
+          </p>
+
+          <p>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="you@Gmail.com" required>
+          </p>
+
+          <p>
+            <label for="phone">Phone number:</label><br>
+            <input type="tel" id="phone" name="phone" placeholder="e.g. 09123456789">
+          </p>
+
+          <p>
+            <label for="address">Address:</label><br>
+            <textarea id="address" name="address" rows="3" cols="40" required></textarea>
+          </p>
+
+          <p>
+            <label for="city">City:</label><br>
+            <input type="text" id="city" name="city" list="cities">
+            <datalist id="cities">
+              <option value="Baguio">
+              <option value="Quezon City">
+              <option value="Dagupan City">
+              <option value="Urdaneta">
+            </datalist>
+          </p>
+
+          <p>
+            <label for="delivery-date">Delivery date:</label><br>
+            <input type="date" id="delivery-date" name="delivery-date">
+          </p>
+
+          <p>
+            <label for="delivery-option">Delivery option:</label><br>
+            <select id="delivery-option" name="delivery-option">
+              <option>Standard</option>
+              <option>Express</option>
+              <option>Store Pick-up</option>
+            </select>
+          </p>
+        </fieldset>
+
+        <fieldset>
+          <legend>Payment Method</legend>
+          <p>
+            <input type="radio" id="card" name="payment" value="card" checked>
+            <label for="card">Credit / Debit Card</label>
+          </p>
+          <p>
+            <input type="radio" id="cod" name="payment" value="cod">
+            <label for="cod">Cash on Delivery</label>
+          </p>
+          <p>
+            <input type="radio" id="ewallet" name="payment" value="ewallet">
+            <label for="ewallet">E-Wallet</label>
+          </p>
+        </fieldset>
+
+        <p>
+          <input type="checkbox" id="gift" name="extras" value="gift">
+          <label for="gift">Gift wrap</label>
+        </p>
+        <p>
+          <input type="checkbox" id="receipt" name="extras" value="receipt">
+          <label for="receipt">Include receipt</label>
+        </p>
+
+        <p>
+          <input type="checkbox" id="terms" name="terms" required>
+          <label for="terms">I agree to the <a href="#terms-info">Terms & Conditions</a></label>
+        </p>
+
+        <button type="submit">Place Order</button>
+        <button type="reset">Clear</button>
+      </form>
+      <hr>
+    </section>
+
+   
+    <section id="contact">
+      <h2>Visit Our Store</h2>
+
+      <iframe
+        title="CB TIRE MAGS Store Location"
+        width="600"
+        height="400"
+        src="https://www.openstreetmap.org/export/embed.html?bbox=120.5800%2C16.3900%2C120.6200%2C16.4300&amp;layer=mapnik&amp;marker=16.4100%2C120.6000">
+      </iframe>
+      <br>
+      <a href="https://www.openstreetmap.org/?mlat=16.4100&amp;mlon=120.6000#map=15/16.4100/120.6000" target="_blank" rel="noopener">View larger map</a>
+
+      <h3>Reach Us</h3>
+      <address>
+        CB TIRE MAGS<br>
+        789 Balay ni Budda Street, Baguio City<br>
+        Phone: <a href="tel:+631234567891">+63 1234567891</a><br>
+        Email: <a href="mailto:CBTIREMAGS@Gmail.com">CBTIREMAGS@Gmail.com</a>
+      </address>
+
+      <h3>Leave a Review</h3>
+      <form action="#" method="post" enctype="multipart/form-data">
+        <p>
+          <label for="review-name">Name:</label><br>
+          <input type="text" id="review-name" name="review-name" required>
+        </p>
+        <p>
+          <label for="rating">Rating (1-5):</label><br>
+          <input type="range" id="rating" name="rating" min="1" max="5" value="5">
+        </p>
+        <p>
+          <label for="review-text">Your review:</label><br>
+          <textarea id="review-text" name="review-text" rows="4" cols="40" required></textarea>
+        </p>
+        <button type="submit">Submit Review</button>
+      </form>
+      <hr>
+    </section>
+
+    <section id="links">
+      <h2>Useful Links</h2>
+      <ul>
+        <li><a href="https://www.google.com/maps" target="_blank" rel="noopener">Google Maps</a></li>
+        <li><a href="https://www.facebook.com" target="_blank" rel="noopener">CB TIRE MAGS on Facebook</a></li>
+        <li><a href="#top">Back to top</a></li>
+      </ul>
+    </section>
+
+    
+    <section id="terms-info">
+      <h2>Terms & Conditions</h2>
+      <details>
+        <summary>Read the terms</summary>
+        <ol>
+          <li>All mags and tires are covered by a 6-month limited warranty against manufacturing defects.</li>
+          <li>Returns are accepted within 7 days of purchase if the product is unused and in original packaging.</li>
+          <li>Installation services are available in-store. Additional fees may apply depending on vehicle type.</li>
+          <li>We are not responsible for damage caused by improper installation or misuse of the product.</li>
+        </ol>
+      </details>
+    </section>
+
+  </main>
+
+ 
+  <footer>
+    <hr>
+    <p>
+      <a href="#contact">About Us</a> |
+      <a href="#contact">Contact</a> |
+      <a href="#terms-info">Shipping Policy</a> |
+      <a href="#terms-info">Returns</a>
+    </p>
+    <p>&copy; 2026 CB TIRE MAGS. All rights reserved.</p>
+  </footer>
+
+
+
+    </header>
+</body>
+</html>
